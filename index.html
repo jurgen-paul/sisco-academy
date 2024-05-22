@@ -30,3 +30,8 @@ after outer() call
 console.log("before outer() call");
 console.log(outer());
 console.log("after outer() call");
+
+console.log(name); // -> inner
+name = "new name";
+console.log(name); // -> new name
+
